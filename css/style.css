@@ -19,6 +19,7 @@ html {
 }
 body {
   font-family: "Work Sans", sans-serif;
+ overflow : hidden;
 }
 .container {
   padding-left: 15px;
@@ -397,8 +398,7 @@ body {
 }
 @media (max-width: 767px) {
   .contact h1 + a {
-    font-size: 25px;
-   
+    font-size: 20px;
   }
 }
 /*  END Contact section */
