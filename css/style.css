@@ -397,8 +397,9 @@ body {
 }
 @media (max-width: 767px) {
   .contact .info .label,
-  .contact .info .link {
+  .contact .info .link , box-1 h1 {
     font-size: 25px;
+   
   }
 }
 /*  END Contact section */
