@@ -404,16 +404,15 @@ body {
 /*  END Contact section */
 
 /* START FOOTER SECTION */
-.footer{
-  background-color: var(--secondary-color);
-  color: white;
-  padding: 30px 10px;
-  text-align: center;
-  font-size: 18px;
+footer{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
 }
-footer span{
-  font-weight: bold;
-  color: var(--main-color);
+footer :nth-child(2) a{
+    color: #10cab7;
 }
  .credit{
   padding-top: 8px;
