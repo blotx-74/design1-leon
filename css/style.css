@@ -396,8 +396,7 @@ body {
     margin-left: 10px;
 }
 @media (max-width: 767px) {
-  .contact .info .label,
-  .contact .info .link , box-1 h1 {
+  .contact h1 + a {
     font-size: 25px;
    
   }
