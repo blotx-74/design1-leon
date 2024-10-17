@@ -371,39 +371,29 @@ body {
 /* END ABOUT SECTION** */
 
 /* Start Contact section */
-.contact {
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
-  background-color: var(--section-background);
+.contact{
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background);
 }
-.contact .info {
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
-  text-align: center;
+.contact .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-.contact .info .label {
-  font-size: 35px;
-  font-weight: 800;
-  color: var(--secondary-color);
-  letter-spacing: -2px;
-  margin-bottom: 15px;
+.contact .soc{
+    display: flex;
+    justify-content: center;
 }
-.contact .info .link {
-  display: block;
-  font-size: 35px;
-  font-weight: 800;
-  color: var(--main-color);
-  text-decoration: none;
+.contact  a{
+    font-size: 35px;
+    color: #10cab7;
+    font-weight: 800;
 }
-.contact .info .social {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  font-size: 16px;
-}
-.contact .info .social i {
-  margin-left: 10px;
-  color: var(--secondary-color);
+.contact .soc i{
+    line-height: 3.1;
+    margin-left: 10px;
 }
 @media (max-width: 767px) {
   .contact .info .label,
